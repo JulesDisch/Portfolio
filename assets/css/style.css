@@ -1,0 +1,284 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #777777;
+    background: #4aaaa5;
+    background-image: url("../images/dark-paths.png"); 
+  }
+
+  * {
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  
+  header {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background: #ffffff;
+    border-color: #cccccc;
+    border-bottom:  2px  solid;
+    
+    /* clear: both;
+    overflow:auto;
+    width: 100%;
+    
+    margin: -7px;
+    top: 0;
+    z-index: 99; */
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  nav {
+     width: 100%; 
+    margin: auto;
+    height: auto;
+    
+  }  
+
+  h1 {
+    position: relative;
+    height: 40px;
+    width: 259px;
+    border: 30px;
+    padding: 40px;
+    margin: 0px;
+    margin-bottom: -10px;
+    font-size: 28px;
+    color: white;
+    background-color: #4aaaa5;
+    text-align: center;
+    z-index: 1;
+  }
+  
+  h1,
+  h2,
+  h3 {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  color: #4aaaa5;
+  }
+
+    /* ul {
+       
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        border-color: #666666;
+        background-color: #ffffff; 
+    } */
+
+    
+    @media screen and (max-width: 980px) {
+
+    }
+
+    @media screen and (max-width: 768px) {
+
+    }
+
+    @media screen and (max-width: 640px) {
+      header {
+        position: static;
+        width: 640px;
+        width: 100%;
+        display: block
+      }
+      li a {
+        position: absolute;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        /* max-width: 640px; */
+      }
+      
+    }
+
+    .links {
+
+      
+      float:right;
+      text-decoration: none;
+    }
+    li {
+         display: inline;
+        color: #777777;
+        text-align: center;
+        padding: 0px 15px;
+        
+        border-right: 1px  solid #bbb;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        
+        font-size: 24px;
+        border-radius: 0px;
+        position: relative;
+        
+          
+        }
+        #logo {
+          float: left;
+          width: 250px;
+          height: 90px;
+          font-family: Georgia, Times, "Times New Roman", serif;
+          font-size: 30px;
+          font-weight: 700;
+          line-height: 90px;
+          color: #ffffff;
+          text-align: center;
+          text-decoration: none;
+          background: #4aaaa5;
+        }
+        
+
+       #link {
+        text-decoration: none;
+       } 
+
+    li a:hover:not(.active) {
+        background-color: #4aaaa5;
+    }
+
+    
+      
+   div {
+       margin: auto;
+       width: 960px;
+       /*height: 550px;*/
+   }   
+      
+  hr {
+    border: 1px solid #777777;
+    border-radius: 10px;
+    margin: 20px;
+  }
+  
+  h2 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 24px;
+    margin: 20px;
+    color: #4aaaa5;
+  }
+  
+  a {
+    color: #777777;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 960px;
+   
+    /* margin-top: 100px;
+    margin-bottom: 100px; */
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    clear: both;
+    overflow: auto;
+    text-align: left
+  }
+  
+  
+  #main-bio,
+  #bio-image {
+    float: left;
+    background-color: #ffffff
+  }
+  
+  #main-bio {
+    width: 100%;
+  }
+  
+  #bio-image {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+#bio-text {
+  margin-right: 20px;
+  margin-left: 20px; 
+}
+
+  footer
+  {
+      background-color: #666666;
+      position: fixed;
+      width: 100%;
+      border-top: 8px solid #4aaaa5;
+      left: 0;
+      bottom: 0;
+      color: white;
+      text-align: center;
+      font-size: 12px;
+      height: 50px;
+  }
+form {
+    margin: 20px;
+}  
+  
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    font-family: Arial, Helvetica, sans-serif;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+    input[type=submit]:hover {
+    background-color: #043634;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  .work {
+    position: relative;
+    float: left;
+    width: 274px;
+    margin: 20px 20px 20px 20px;
+    overflow: auto;
+  }
+  
+  
+  .work img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+  }
+  .work h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+  }    
+  .auth-image {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+  }
+ 
