@@ -13,7 +13,6 @@ body {
 
   .container {
     width: 100%;
-    /* max-width: 960px; */
     margin: 0 auto;
     clear: both;        
   }
@@ -212,7 +211,10 @@ input[type=text], select, textarea {
     overflow: auto; 
     
   }
-  
+  .work a {
+    color: #ffffff;
+
+  }
   
   .work img {
     width: 100%;
