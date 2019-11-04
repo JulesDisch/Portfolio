@@ -26,8 +26,8 @@ body {
 }
     
 #main-container {
-  padding-top: 15%;
-  padding-bottom: 15%;
+  padding-top: 80px;
+  padding-bottom: 80px;
   height: 100%;
 } 
 
@@ -244,14 +244,22 @@ input[type=submit]:hover {
 
 .column-1 {
   float: left;
-  width: 50%;
+  width: 33.3%;
   margin: auto;
   padding: 0 10px 0 0
 }
 
 .column-2 {
-  float: right;
-  width: 50%;
+  float: left;
+  width: 33.3%;
+  margin: auto;
+  padding: 0 5px 0 5px;
+}
+
+.column-3 {
+ float: left;
+  width: 33.3%;
+  margin: auto;
   padding: 0 0 0 10px;
 }
 
@@ -384,6 +392,11 @@ input[type=submit]:hover {
   }
 
   .column-2 {
+    width: 100%;
+    padding: 0 0 0 0;
+  }  
+
+  .column-3 {
     width: 100%;
     padding: 0 0 0 0;
   }  
