@@ -204,6 +204,27 @@ footer p {
   padding: 12px 0;
 }
 
+.potluck {
+ position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+}
+
+.weather {
+  position: absolute;
+   height: 100%;
+   width: 100%;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   top: 0;
+   padding-top:90px;
+ }
+
 form {
   margin: 20px;
 }  
