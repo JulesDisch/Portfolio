@@ -283,6 +283,9 @@ input[type=submit]:hover {
   margin: auto;
   padding: 0 0 0 10px;
 }
+#resume {
+   width: 66.6%;
+}
 
 .work {
   width: 100%;
