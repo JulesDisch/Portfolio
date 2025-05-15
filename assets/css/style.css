@@ -170,6 +170,9 @@ hr {
   border: 1px solid #777777;
   border-radius: 10px;
 }
+li {
+  padding-bottom: 10px
+}
   
 #bio-image {
   float: left;
@@ -284,8 +287,23 @@ input[type=submit]:hover {
   margin: auto;
   padding: 0 0 0 10px;
 }
-#resume {
-   width: 66.6%;
+#resume-bullets {
+  float: right;
+  width: 90%;
+  margin-right: 40px
+  
+}
+
+#resume-header {
+  font-weight: 800;
+}
+#resume-headerC2 {
+  float: right;
+}
+
+#resume-blurb {
+  width: 100%;
+  padding: 10px 20px;
 }
 
 .work {
