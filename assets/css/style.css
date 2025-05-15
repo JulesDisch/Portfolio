@@ -297,8 +297,12 @@ input[type=submit]:hover {
 #resume-header {
   font-weight: 800;
 }
+#resume-headerC1 {
+  width: auto;
+}
 #resume-headerC2 {
   float: right;
+  width: auto;
 }
 
 #resume-blurb {
